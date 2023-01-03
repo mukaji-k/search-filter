@@ -5,8 +5,6 @@ import Fruits from './Fruits';
 function App() {
   const [query, setQuery] = useState("");
 
-  console.log(Fruits.filter(fruit=>fruit.name.toLowerCase().includes("ba")));
-
   const search = (data)=>{
     return Fruits.filter(fruit=>fruit.name.toLocaleLowerCase().toLocaleUpperCase().includes(query));
   }
