@@ -1,0 +1,39 @@
+:root {
+  --matte: #ECF0F1;
+  --navy: #1C2833;
+  --sky: #AED6F1;
+}
+
+body {
+  margin: 20px;
+  background-color: var(--matte);
+}
+.App {
+  text-align: center;
+  background-color: var(--navy);
+  border-bottom: 100px solid var(--navy);
+}
+.search {
+  border-radius: 15px;
+  border: none;
+  margin: 20px 0 100px 0;
+  padding-left: 20px;
+  height: 40px;
+  width: 500px;
+  font-size: 20px;
+}
+.search:focus, .search:active {
+  border: none;
+  outline: none;
+  background-color: var(--sky);
+}
+.title{
+  color: var(--matte);
+  padding-top: 50px;
+}
+.listItem {
+  list-style: none;
+  font-size: 20px;
+  color: var(--matte);
+  margin: 20px;
+}
